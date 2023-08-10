@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>University System</title>
+    <link rel="stylesheet"  href="style.css">
+</head>
+<body>
+    <header>
+        <h1>University Mangement System</h1>
+        <nav class="navMenu">
+            
+            
+               <a href="#">HomePage</a>
+                <a href="#">Courses</a>
+                <a href="#">information</a>
+                <a href="#">About</a>
+            </nav>
+  
+ 
+   <div class="head">
+   
+    
+   
+  
+   <div class="inputs">
+    <input placeholder="Name" type="text"  id="name" >
+    <input  type="number" id="Age" placeholder="Age" >
+    <div class="price"> 
+       
+        <input  type="number" id="Annual" placeholder="Annual Amount" >
+        </div>
+    <input placeholder="Number Of hours" type="number " id="count" >
+    <input placeholder="Specialization" type="text " id="category" >
+   
+    <button id="submit">Create</button>
+   </div>
+   
+    <div class="searchBlock">
+        <input  onkeyup=" searchData(this.value)"  type="text" id="search" placeholder="Search">
+        <div class="btnsearch">
+            <button  id="search" >Search </button>
+           
+ </div>
+
+ <div id="deleteAll">
+
+ </div>
+<table>
+     <tr>
+        <th>id</th>
+        <th>Name</th>
+        <th>Age</th>
+        <th>Annual Amount</th>
+        <th>number of hours</th>
+         <th>Specialization</th>
+       
+        <th>update</th>
+        <th>delete</th>
+    </tr>
+    <tbody id="tbody">
+     </tbody>
+</table>
+   </div> 
+   <script src="main.js"></script>
+</body>
+</html>
